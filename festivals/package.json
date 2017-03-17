@@ -12,4 +12,7 @@
     "seneca": "^3.3.0",
     "seneca-amqp-transport": "^2.1.0"
   }
+{ "//": "Kommentarobjekt",
+
+ "//": "Diese Datei speichert Abh?ngigkeiten, die ¨¹ber npm install automatisch gezogen werden k?nnen"}
 }
