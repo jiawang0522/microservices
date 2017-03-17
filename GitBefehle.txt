@@ -1,11 +1,13 @@
 Git Befehle:
+(siehe auch: https://rogerdudler.github.io/git-guide/index.de.html)
+
 //Repository clone
 git clone pfad
 
 //
 git remote add origin pfad
 
-//Du kannst ?nderungen vorschlagen (zum Index hinzuf¨¹gen) mit
+//Du kannst Aenderungen vorschlagen (zum Index hinzuf¨¹gen) mit
 git add <dateiname> oder . fuer alle Aenderungen
 
 //Aenderungen committen
@@ -13,3 +15,15 @@ git commit -m "Commit-Nachricht"
 
 //Aenderungen mit push in remote repository festschreiben
 git push -u origin master
+
+//Erstelle einen neuen Branch mit dem Namen "feature_x" und wechsle zu diesem:
+git checkout -b feature_x
+
+//Um zum Master zur¨¹ck zu wechseln:
+git checkout master
+
+//Und um den eben erstellten Branch wieder zu l?schen:
+git branch -d feature_x
+
+//Ein Branch ist nicht f¨¹r andere verf¨¹gbar, bis du diesen in dein entferntes Repository hochl?dst:
+git push origin <branch>
