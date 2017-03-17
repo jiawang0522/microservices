@@ -1,0 +1,15 @@
+Git Befehle:
+//Repository clone
+git clone pfad
+
+//
+git remote add origin pfad
+
+//Du kannst ?nderungen vorschlagen (zum Index hinzuf¨¹gen) mit
+git add <dateiname> oder . fuer alle Aenderungen
+
+//Aenderungen committen
+git commit -m "Commit-Nachricht"
+
+//Aenderungen mit push in remote repository festschreiben
+git push -u origin master
